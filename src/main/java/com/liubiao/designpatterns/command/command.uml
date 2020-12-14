@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.liubiao.designpatterns.command</OriginalElement>
+  <nodes>
+    <node x="355.0" y="345.0">com.liubiao.designpatterns.command.LightReceiver</node>
+    <node x="267.5" y="0.0">com.liubiao.designpatterns.command.Command</node>
+    <node x="0.0" y="132.0">com.liubiao.designpatterns.command.LightOffCommand</node>
+    <node x="421.0" y="132.0">com.liubiao.designpatterns.command.LightOnCommand</node>
+    <node x="363.8709677419355" y="519.733137829912">com.liubiao.designpatterns.command.Client</node>
+    <node x="263.0" y="175.0">com.liubiao.designpatterns.command.NoCommand</node>
+    <node x="0.0" y="345.0">com.liubiao.designpatterns.command.RemoteController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.liubiao.designpatterns.command.LightOnCommand" target="com.liubiao.designpatterns.command.Command">
+      <point x="0.0" y="-84.0" />
+      <point x="542.0" y="107.0" />
+      <point x="375.0" y="107.0" />
+      <point x="43.0" y="41.0" />
+    </edge>
+    <edge source="com.liubiao.designpatterns.command.LightOffCommand" target="com.liubiao.designpatterns.command.Command">
+      <point x="0.0" y="-84.0" />
+      <point x="121.5" y="107.0" />
+      <point x="289.0" y="107.0" />
+      <point x="-43.0" y="41.0" />
+    </edge>
+    <edge source="com.liubiao.designpatterns.command.NoCommand" target="com.liubiao.designpatterns.command.Command">
+      <point x="0.0" y="-41.0" />
+      <point x="0.0" y="41.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9069148936170213" x="331.5" y="366.0" />
+  <SelectedNodes>
+    <node>com.liubiao.designpatterns.command.Client</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
